@@ -1,0 +1,68 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+    /* font-family: 'Lora', 'Roboto', serif; */
+    font-size: 0.9em;
+    font-weight: 300;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    /* width: 100%; */
+    /* justify-content: flex-end; */
+}
+
+.act {
+    background-color: #fffff7;
+    padding: 15px;
+    flex: 2.5;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.all {
+    background-color: #fffff7;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    flex: 1;
+}
+
+.enrol {
+    background-color: #fffff7;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    flex: 7;
+    text-align: left;
+}
+
+.all:hover {
+    color: rgb(150, 149, 149);
+}
+
+.enrol:hover {
+    color: rgb(150, 149, 149);
+}
+
+.username:hover {
+    color: black;
+}
+
+.username {
+    font-size: 15px;
+    cursor:default;
+    padding-right: 3%;
+}
